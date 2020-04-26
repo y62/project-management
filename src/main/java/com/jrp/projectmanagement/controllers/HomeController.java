@@ -17,7 +17,7 @@ import java.util.List;
 
 @Controller
 public class HomeController {
-
+//Nihao
     @Value("${version}")
     private String ver;
 
