@@ -1,12 +1,12 @@
-package com.jrp.projectmanagement.controllers;
+package com.jrp.projectmanagement.pma.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jrp.projectmanagement.dao.EmployeeRepository;
-import com.jrp.projectmanagement.dao.ProjectRepository;
-import com.jrp.projectmanagement.dto.ChartData;
-import com.jrp.projectmanagement.dto.EmployeeProject;
-import com.jrp.projectmanagement.entitites.Project;
+import com.jrp.projectmanagement.pma.dao.EmployeeRepository;
+import com.jrp.projectmanagement.pma.dao.ProjectRepository;
+import com.jrp.projectmanagement.pma.dto.ChartData;
+import com.jrp.projectmanagement.pma.dto.EmployeeProject;
+import com.jrp.projectmanagement.pma.entitites.Project;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

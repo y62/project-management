@@ -1,7 +1,7 @@
-package com.jrp.projectmanagement.controllers;
+package com.jrp.projectmanagement.pma.controllers;
 
-import com.jrp.projectmanagement.dao.EmployeeRepository;
-import com.jrp.projectmanagement.entitites.Employee;
+import com.jrp.projectmanagement.pma.dao.EmployeeRepository;
+import com.jrp.projectmanagement.pma.entitites.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.jrp.projectmanagement.dto;
+package com.jrp.projectmanagement.pma.dto;
 
 //dto stands for data transfer object
 public interface EmployeeProject {

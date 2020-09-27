@@ -1,4 +1,4 @@
-package com.jrp.projectmanagement.services;
+package com.jrp.projectmanagement.pma.services;
 
 
 

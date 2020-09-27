@@ -1,7 +1,6 @@
-package com.jrp.projectmanagement;
-
-import com.jrp.projectmanagement.dao.ProjectRepository;
-import com.jrp.projectmanagement.entitites.Project;
+import com.jrp.projectmanagement.pma.ProjectManagementApplication;
+import com.jrp.projectmanagement.pma.dao.ProjectRepository;
+import com.jrp.projectmanagement.pma.entitites.Project;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +17,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @SqlGroup({@Sql(executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD, scripts = {"classpath:schema.sql", "classpath:data.sql"}),
-        @Sql(executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD, scripts = "classpath:drop.sql")})
+       })
 public class ProjectRepositoryIntegrationTest {
 
     @Autowired

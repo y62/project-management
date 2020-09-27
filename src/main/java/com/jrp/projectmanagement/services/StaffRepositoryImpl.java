@@ -1,6 +1,5 @@
-package com.jrp.projectmanagement.services;
+package com.jrp.projectmanagement.pma.services;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 @Repository
 public class StaffRepositoryImpl implements IStaffRepository {

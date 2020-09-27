@@ -1,4 +1,4 @@
-package com.jrp.projectmanagement.entitites;
+package com.jrp.projectmanagement.pma.entitites;
 
 
 import org.hibernate.annotations.GenericGenerator;

@@ -1,4 +1,4 @@
-package com.jrp.projectmanagement.springExample;
+package com.jrp.projectmanagement.pma.springExample;
 
 public class Car {
 

@@ -1,4 +1,4 @@
-package com.jrp.projectmanagement.dto;
+package com.jrp.projectmanagement.pma.dto;
 
 public interface ChartData {
     String getLabel();
